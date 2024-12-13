@@ -210,7 +210,7 @@ img {
     color: #f2f2f2;
     background-color: #f08a4b;
     padding: 0.5rem;
-    max-width: auto;
+    max-width: 50%;
   }
   .button {
     display: inline-block;
