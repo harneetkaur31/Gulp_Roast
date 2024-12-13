@@ -173,7 +173,7 @@ img {
 
   /* establishes a white background */
 .main-bkgd {
-    background: #ffffff url(2.jpg);
+    background: url(2.jpg);
     padding-bottom: 100px;
     padding-top: 30px;
   }
