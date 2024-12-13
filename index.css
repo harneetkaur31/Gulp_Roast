@@ -298,7 +298,7 @@ img {
       width: 300px; 
     }
     .figcaption {
-      min-width: auto;
+      min-width: 67%;
     }
   }
   
