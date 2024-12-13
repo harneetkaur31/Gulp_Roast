@@ -1,0 +1,314 @@
+body {
+    background: url(Images/2.jpg);
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    line-height: 2;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  h1 {
+    color: #59331D;
+    background-color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 0;
+    text-align: center;
+    letter-spacing: 5px;
+  }
+  /* make images flexible */
+  img {
+    max-width: 100%;
+  }
+  a {
+    color: #ffffff;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  header {
+    border-bottom: 3px solid #ffffff;
+  }
+/* navbar styling */
+nav ul {
+    align-items: center;
+    padding: 5px 10px;
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  nav li {
+    margin: 20px 1rem 1rem 1rem;
+    padding: 5px;
+    font-size: 1.3rem;
+  }
+  
+  /* max width on the image in pixels */
+  nav .logo img {
+    max-width: 150px;
+  }
+  
+  /* flex basis on the image container, li */
+  nav .logo {
+    flex-basis: 100%;
+    text-align: left;
+    flex: 1px;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    display: float;
+  }
+
+.mySlides {
+    display: none;
+}
+img {
+    vertical-align: middle;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.card-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+  }
+  
+  .card {
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 450px;
+    height: 550px
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-bottom: 1px solid #ffffff;
+  }
+  
+  .card-body {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .card-body h5 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #59331D;
+  }
+  
+  .card-body p {
+    font-size: 14px;
+    color: #59331D;
+    line-height: 1.4;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    text-decoration: none;
+    background: #f08a4b;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+
+  /* establishes a white background */
+.main-bkgd {
+    background: #ffffff url(Images/2.jpg) repeat-x bottom;
+    padding-bottom: 100px;
+    padding-top: 30px;
+  }
+  
+  /* sits inside of the white background, centered */
+  .main {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  article {
+    flex-basis: 73%;
+    color: #ffffff;
+  }
+  figure {
+    margin: 3rem 0 0 0;
+    width: 300px;
+    flex-basis: 25%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  figure img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+  }
+  figcaption {
+    color: #f2f2f2;
+    padding: 0.5rem;
+  }
+  .button {
+    display: inline-block;
+    background-color: #f08a4b;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    color: #ffffff;
+    text-decoration: none;
+    border: 3px solid #9e582f;
+  }
+  .button:hover {
+    background-color: #f2f2f2;
+    color: #f08a4b;
+  }
+  
+
+.contact-text p {
+    font-size: 1.1em;
+    margin: 5px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.contact-text a {
+    text-decoration: none;
+    color: #fff; 
+    font-weight: bold;
+}
+
+.contact-text a:hover {
+    text-decoration: underline;
+}
+
+  footer {
+    background-color: #ffffff;
+    color: #59331D ;
+    text-align: center;
+    border-top: 6px solid #f08a4b;
+  }
+  footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  footer a {
+    color: #59331D ;
+    font-size: 2rem;
+    display: block;
+    margin: 0 1rem 3rem 1rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    nav ul {
+      flex-flow: column wrap;
+    }
+    nav li {
+      margin: 10px 0;
+      font-size: 1.1rem;
+    }
+    nav .logo {
+      text-align: center;
+      flex-basis: 100%;
+    }
+    .contact-text{
+      flex-flow: column wrap;
+      font-size: 15px;
+    }
+    .main {
+      flex-flow: column wrap;
+      text-align: center;
+    }
+    article {
+      flex-basis: 100%;
+      margin-bottom: 2rem;
+    }
+    figure {
+      margin: 3rem 0 0 0;
+      flex-basis: 25%;
+      border-radius: 10px;
+      width: 300px; 
+    }
+    .figcaption {
+      min-width: 67%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+    .button {
+      font-size: 0.9rem;
+      padding: 0.4rem 0.8rem;
+    }
+    nav li {
+      font-size: 1rem;
+    }
+    footer a {
+      font-size: 1.5rem;
+    }
+  }
+  

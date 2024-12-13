@@ -1,0 +1,167 @@
+body {
+    background: url(Images/2.jpg);
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    line-height: 2;
+  }
+  
+  h1, h2, h3, h5 {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1;
+  }
+  h1 {
+    font-size: 34px;
+    margin-bottom: 0;
+  }
+  /* make images flexible */
+  img {
+    max-width: 100%;
+  }
+  a {
+    color: #59331D ;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  header {
+    border-bottom: 3px solid #ffffff;
+  }
+  /* navbar styling */
+  /* navbar styling */
+nav ul {
+  background-color: #f08a4b;
+  align-items: center;
+  padding: 5px 10px;
+  margin: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+nav li {
+  margin: 20px 1rem 1rem 1rem;
+  padding: 5px;
+  font-size: 1.3rem;
+}
+
+/* max width on the image in pixels */
+nav .logo img {
+  max-width: 150px;
+}
+
+/* flex basis on the image container, li */
+nav .logo {
+  flex-basis: 100%;
+  text-align: left;
+  flex: 1px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  display: float;
+}
+
+.card-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 450px;
+  height: 550px
+}
+
+.card-img-top {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-bottom: 1px solid #ffffff;
+}
+
+.card-body {
+  padding: 20px;
+  text-align: center;
+}
+
+.card-body h5 {
+  font-size: 20px;
+  margin: 10px 0;
+  color: #59331D;
+}
+
+.card-body p {
+  font-size: 14px;
+  color: #59331D;
+  line-height: 1.4;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  background: #f08a4b;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+footer {
+  
+    background-color: #ffffff;
+    color: #59331D ;
+    text-align: center;
+    border-top: 6px solid #f08a4b;
+  }
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+footer a {
+    color: #59331D ;
+    font-size: 2rem;
+    display: block;
+    margin: 0 1rem 3rem 1rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    nav ul {
+      flex-flow: column wrap;
+    }
+    nav li {
+      margin: 10px 0;
+      font-size: 1.1rem;
+    }
+    nav .logo {
+      text-align: center;
+      flex-basis: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    h1 {
+      font-size: 20px;
+    }
+ 
+    nav li {
+      font-size: 1rem;
+    }
+    footer a {
+      font-size: 1.5rem;
+    }
+  }
+  
