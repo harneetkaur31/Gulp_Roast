@@ -64,7 +64,7 @@ nav a {
 
 /* establishes a white background */
 .main-bkgd {
-  background: #ffffff url(Images/2.jpg) repeat-x bottom;
+  background: #ffffff url(2.jpg) repeat-x bottom;
   padding-bottom: 300px;
 }
 
