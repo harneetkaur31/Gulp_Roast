@@ -187,6 +187,9 @@ img {
     flex-flow: row wrap;
     justify-content: space-between;
   }
+  .image1 {
+    max-width: 100%;
+  }
   article {
     flex-basis: 73%;
     color: #ffffff;
