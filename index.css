@@ -8,6 +8,8 @@ body {
   
   h1, h2, h3 {
     font-family: 'Poppins', sans-serif;
+    text-align: center;
+    line-height: 1;
   }
 
   h1 {
@@ -153,8 +155,19 @@ img {
     font-size: 20px;
     margin: 10px 0;
     color: #59331D;
-  }
   
+  }
+  .card-body h5 :hover {
+      background-color: #49382e;
+      color: #f08a4b
+  }
+  .card a {
+    color: #59331D;
+    text-decoration: none;
+    display: float;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+  }
   .card-body p {
     font-size: 14px;
     color: #59331D;
@@ -162,15 +175,6 @@ img {
     margin-bottom: 30px;
   }
   
-  .btn {
-    display: inline-block;
-    text-decoration: none;
-    background: #f08a4b;
-    color: #fff;
-    padding: 10px 15px;
-    border-radius: 5px;
-  }
-
   /* establishes a white background */
 .main-bkgd {
     background: url(2.jpg);

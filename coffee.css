@@ -98,8 +98,12 @@ nav a {
   font-size: 20px;
   margin: 10px 0;
   color: #59331D;
-}
 
+}
+.card-body h5 :hover {
+    background-color: #49382e;
+    color: #f08a4b
+}
 .card-body p {
   font-size: 14px;
   color: #59331D;
@@ -109,7 +113,6 @@ nav a {
 
 
 footer {
-  
     background-color: #ffffff;
     color: #59331D ;
     text-align: center;
