@@ -117,15 +117,15 @@ nav ul {
 }
 
  
-  footer {
-    position: fixed;
-    width: 100%;
-    background-color: #ffffff;
-    color: #59331D ;
-    text-align: center;
-    border-top: 6px solid #f08a4b;
-    
-  }
+footer {
+  position: fixed;
+  width: 100%;
+  background-color: #ffffff;
+  color: #59331D ;
+  text-align: center;
+  border-top: 6px solid #f08a4b;
+  
+}
 footer ul {
     list-style-type: none;
     padding: 0;
