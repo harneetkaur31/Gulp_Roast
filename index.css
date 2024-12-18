@@ -250,26 +250,27 @@ img {
     text-decoration: underline;
 }
 
-  footer {
-    background-color: #ffffff;
-    color: #59331D ;
-    text-align: center;
-    border-top: 6px solid #f08a4b;
-  }
-  footer ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-  }
-  footer a {
-    color: #59331D ;
-    font-size: 2rem;
-    display: block;
-    margin: 0 1rem 3rem 1rem;
-  }
+footer {
+  border-top: 5px solid #f08a4b; 
+  text-align: center; 
+  padding: 2rem 1rem; 
+  margin-top: 2rem; 
+  background-color: #fff; 
+  color: #59331D; 
+  width: 100%;
+}
+
+/* Footer Container */
+.container-sm {
+  max-width: 800px; 
+  margin: 0 auto; 
+}
+
+/* Footer Text */
+footer p {
+  margin: 0.5rem 0; 
+  font-size: 14px; 
+}
 
   @media screen and (max-width: 768px) {
     nav ul {
