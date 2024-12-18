@@ -64,18 +64,6 @@ nav a {
   display: float;
 }
 
-.card-group {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-  padding: 20px;
-  max-width: 1200px;
-  margin: 20px auto;
-  gap: 20px;
-  box-shadow: 30 20 50;
-}
-
 .card {
   background: #fff;
   border: 1px solid #fff;
@@ -83,16 +71,23 @@ nav a {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   max-width: 800px;
+  align-items: center;
+  display: float;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 10px;
+  margin: 50px auto;
+  gap: 20px;
   
 }
 .card-img {
   width: 100%;
-  height: 300px;
+  height: 500px;
   object-fit: cover;
   border-bottom: 1px solid #ffffff;
   flex: 1;
-  justify-items: right;
-
+  justify-items: center;
 }
 .card-body {
   padding: 20px;
@@ -109,10 +104,7 @@ nav a {
   margin: 10px 0;
   color: #59331D;
 }
-.card-body h1 :hover {
-    background-color: #49382e;
-    color: #f08a4b
-}
+
 .card-body p {
   font-size: 14px;
   color: #59331D;
